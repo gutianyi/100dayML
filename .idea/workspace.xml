@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1aa5f5a0-222d-406a-a2fd-56299db8256d" name="Default Changelist" comment="internet socket作业">
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/day3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/internet/GreetingClient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/internet/GreetingServer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/internet/ThreadGreetingClient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/internet/ThreadGreetingServer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/test.py" afterDir="false" />
+    <list default="true" id="1aa5f5a0-222d-406a-a2fd-56299db8256d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/linear_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/1_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/2_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/3_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/4_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/5_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/6_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/7_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/8_r_price_train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/day2.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/day2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="100dayML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/100_day_ml_py/internet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -41,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/internet" />
     </key>
   </component>
@@ -56,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GreetingClient">
+  <component name="RunManager" selected="Python.linear_regression">
     <configuration name="GreetingClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,12 +159,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ml_project/linear_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GreetingClient" />
-        <item itemvalue="Python.GreetingServer" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.linear_regression" />
         <item itemvalue="Python.day3" />
         <item itemvalue="Python.day2" />
+        <item itemvalue="Python.GreetingClient" />
+        <item itemvalue="Python.GreetingServer" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +200,13 @@
       <workItem from="1570703237406" duration="2320000" />
       <workItem from="1570777993086" duration="3441000" />
       <workItem from="1570786347060" duration="2178000" />
-      <workItem from="1570791214178" duration="290000" />
+      <workItem from="1570791214178" duration="322000" />
+      <workItem from="1570791552624" duration="24000" />
+      <workItem from="1570964136204" duration="2377000" />
+      <workItem from="1571051432422" duration="14000" />
+      <workItem from="1571280441451" duration="2403000" />
+      <workItem from="1571283954837" duration="512000" />
+      <workItem from="1571404992267" duration="6677000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1569227696119</created>
@@ -210,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569488203767</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="internet socket作业">
+      <created>1570791519130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570791519130</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +270,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100dayML$GreetingClient.coverage" NAME="GreetingClient Coverage Results" MODIFIED="1570788765970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/internet" />
+    <SUITE FILE_PATH="coverage/100dayML$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1570965686386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
+    <SUITE FILE_PATH="coverage/100dayML$day3.coverage" NAME="day3 Coverage Results" MODIFIED="1570966055465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
     <SUITE FILE_PATH="coverage/100dayML$test.coverage" NAME="test Coverage Results" MODIFIED="1570780782464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
     <SUITE FILE_PATH="coverage/100dayML$GreetingServer.coverage" NAME="GreetingServer Coverage Results" MODIFIED="1570788758997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/internet" />
+    <SUITE FILE_PATH="coverage/100dayML$linear_regression.coverage" NAME="linear_regression Coverage Results" MODIFIED="1571469284667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_project" />
   </component>
 </project>
