@@ -34,6 +34,7 @@ labelencoder_X = LabelEncoder()
 X[ : , 0] = labelencoder_X.fit_transform(X[ : , 0])
 #Creating a dummy variable
 onehotencoder = OneHotEncoder(categorical_features = [0])
+print(type(X))
 X = onehotencoder.fit_transform(X).toarray()
 labelencoder_Y = LabelEncoder()
 Y =  labelencoder_Y.fit_transform(Y)
