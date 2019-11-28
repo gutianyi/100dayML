@@ -43,7 +43,7 @@ torch.manual_seed(SEED)
 torch.cuda.manual_seed(SEED)
 torch.backends.cudnn.deterministic = True
 
-TEXT = data.Field(tokenize='spacy')
+TEXT = data.Field(tokenize='spacy', fix_length=38)
 LABEL = data.LabelField(dtype=torch.float)
 
 print("\ndowning IMDB data...")
@@ -65,8 +65,8 @@ print('finished...')
 
 # 3) build vocab， 并定义max_size  & glove
 print("\nbuild vocab， 并定义max_size  & glove...")
-TEXT.build_vocab(train_data, max_size=25000, vectors="glove.6B.100d", unk_init=torch.Tensor.normal_)
-LABEL.build_vocab(test_data)
+TEXT.build_vocab(train_data, max_size=3800)
+LABEL.build_vocab(train_data)
 
 print('---------------')
 print("TEXT.vocab.freqs.most_common(20)", TEXT.vocab.freqs.most_common(20))
@@ -85,6 +85,7 @@ train_iterator, valid_iterator, test_iterator = data.BucketIterator.splits(
     device=device
 )
 print('finished')
+
 
 # cnn model
 class TextCNN(nn.Module):
@@ -123,6 +124,7 @@ class TextCNN(nn.Module):
         out = out.view(in_size, -1)  # 设经过max pooling之后，有output_num个数，将out变成(batch_size,output_num)，-1表示自适应
         out = F.dropout(out)
         out = self.fc(out)  # nn.Linear接收的参数类型是二维的tensor(batch_size,output_num),一批有多少数据，就有多少行
+        print('out是', out)
         return out
 
 def train_textcnn_model(net, iterator, epoch):
@@ -135,6 +137,7 @@ def train_textcnn_model(net, iterator, epoch):
         for batch in iterator: # 有多少个batch
             optimizer.zero_grad()  # 清除所有优化的梯度
             output = net(batch.text)  # 传入数据并前向传播获取输出
+            print("batch.text.size()",batch.text.size())
             loss = criterion(output, batch.label)
             loss.backward()
             optimizer.step()

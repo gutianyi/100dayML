@@ -5,36 +5,75 @@
 # @Site    : 
 # @File    : test.py
 # @Software: PyCharm
-# import base64
-# print(base64.encodebytes("qwe".encode('utf-8')).decode('utf-8'))
-# from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-# # --- examples -------
-# sentences = ["VADER is smart, handsome, and funny.",  # positive sentence example
-#              "VADER is smart, handsome, and funny!",  # punctuation emphasis handled correctly (sentiment intensity adjusted)
-#              "VADER is very smart, handsome, and funny.", # booster words handled correctly (sentiment intensity adjusted)
-#              "VADER is VERY SMART, handsome, and FUNNY.",  # emphasis for ALLCAPS handled
-#              "VADER is VERY SMART, handsome, and FUNNY!!!", # combination of signals - VADER appropriately adjusts intensity
-#              "VADER is VERY SMART, uber handsome, and FRIGGIN FUNNY!!!", # booster words & punctuation make this close to ceiling for score
-#              "VADER is not smart, handsome, nor funny.",  # negation sentence example
-#              "The book was good.",  # positive sentence
-#              "At least it isn't a horrible book.",  # negated negative sentence with contraction
-#              "The book was only kind of good.", # qualified positive sentence is handled correctly (intensity adjusted)
-#              "The plot was good, but the characters are uncompelling and the dialog is not great.", # mixed negation sentence
-#              "Today SUX!",  # negative slang with capitalization emphasis
-#              "Today only kinda sux! But I'll get by, lol", # mixed sentiment example with slang and constrastive conjunction "but"
-#              "Make sure you :) or :D today!",  # emoticons handled
-#              "Catch utf-8 emoji such as such as 💘 and 💋 and 😁",  # emojis handled
-#              "Not bad at all"  # Capitalized negation
-#              ]
-#
-# analyzer = SentimentIntensityAnalyzer()
-# for sentence in sentences:
-#     vs = analyzer.polarity_scores(sentence)
-#     print("{:-<65} {}".format(sentence, str(vs)))
+"""
+View more, visit my tutorial page: https://morvanzhou.github.io/tutorials/
+My Youtube Channel: https://www.youtube.com/user/MorvanZhou
+Dependencies:
+torch: 0.4
+matplotlib
+"""
+import torch
+import torch.nn.functional as F
+import matplotlib.pyplot as plt
 
-import copy
-a = {'1':[1,2,3]}
-b = a
-print(a,b)
-a['1'] = [1,2,3,4,5]
-print(a,b)
+# torch.manual_seed(1)    # reproducible
+
+# make fake data
+n_data = torch.ones(100, 2)
+x0 = torch.normal(2*n_data, 1)      # class0 x data (tensor), shape=(100, 2)
+y0 = torch.zeros(100)               # class0 y data (tensor), shape=(100, 1)
+x1 = torch.normal(-2*n_data, 1)     # class1 x data (tensor), shape=(100, 2)
+y1 = torch.ones(100)                # class1 y data (tensor), shape=(100, 1)
+x = torch.cat((x0, x1), 0).type(torch.FloatTensor)  # shape (200, 2) FloatTensor = 32-bit floating
+y = torch.cat((y0, y1), ).type(torch.LongTensor)    # shape (200,) LongTensor = 64-bit integer
+
+# The code below is deprecated in Pytorch 0.4. Now, autograd directly supports tensors
+# x, y = Variable(x), Variable(y)
+
+# plt.scatter(x.data.numpy()[:, 0], x.data.numpy()[:, 1], c=y.data.numpy(), s=100, lw=0, cmap='RdYlGn')
+# plt.show()
+
+
+class Net(torch.nn.Module):
+    def __init__(self, n_feature, n_hidden, n_output):
+        super(Net, self).__init__()
+        self.hidden = torch.nn.Linear(n_feature, n_hidden)   # hidden layer
+        self.out = torch.nn.Linear(n_hidden, n_output)   # output layer
+
+    def forward(self, x):
+        x = F.relu(self.hidden(x))      # activation function for hidden layer
+        x = self.out(x)
+        return x
+
+net = Net(n_feature=2, n_hidden=10, n_output=2)     # define the network
+print(net)  # net architecture
+
+optimizer = torch.optim.SGD(net.parameters(), lr=0.02)
+loss_func = torch.nn.CrossEntropyLoss()  # the target label is NOT an one-hotted
+
+plt.ion()   # something about plotting
+
+for t in range(100):
+    out = net(x)                 # input x and predict based on x
+    print(y)
+    loss = loss_func(out, y)     # must be (1. nn output, 2. target), the target label is NOT one-hotted
+    print('lost: ',loss)
+    optimizer.zero_grad()   # clear gradients for next train
+    loss.backward()         # backpropagation, compute gradients
+    optimizer.step()        # apply gradients
+
+    if t % 2 == 0:
+        # plot and show learning process
+        plt.cla()
+        prediction = torch.max(out, 1)[1]
+        print(out)
+        print(prediction)
+        pred_y = prediction.data.numpy()
+        target_y = y.data.numpy()
+        plt.scatter(x.data.numpy()[:, 0], x.data.numpy()[:, 1], c=pred_y, s=100, lw=0, cmap='RdYlGn')
+        accuracy = float((pred_y == target_y).astype(int).sum()) / float(target_y.size)
+        plt.text(1.5, -4, 'Accuracy=%.2f' % accuracy, fontdict={'size': 20, 'color':  'red'})
+        plt.pause(0.1)
+
+plt.ioff()
+# plt.show()
