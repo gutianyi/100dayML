@@ -135,7 +135,7 @@ train_data, test_data = datasets.IMDB.splits(TEXT, LABEL)
 
 import random
 # 默认split_ratio=0.7
-train_data, valid_data = train_data.split(random_state=random.seed(SEED))
+train_data, valid_data = train_data.split(split_ratio=0.8, random_state=random.seed(SEED))
 print(f'Number of training examples: {len(train_data)}')
 print(f'Number of validation examples: {len(valid_data)}')
 print(f'Number of testing examples: {len(test_data)}')
@@ -187,7 +187,7 @@ class CNN(nn.Module):
 #         print('x after conv1 size',x.size())
         conv1ed = conv1ed.view(conv1ed.size(0), -1)   # 展平多维的卷积图成 (batch_size, 128, 190)
         output = self.out(conv1ed)
-        return output.squeeze()
+        return F.sigmoid(output.squeeze())
 
 
 # 初始化参数
@@ -197,7 +197,7 @@ EMBEDDING_DIM = 64
 N_FILTERS = 256
 FILTER_SIZES = 3
 OUTPUT_DIM = 1
-DROPOUT = 0.5
+DROPOUT = 0.2
 PAD_IDX = TEXT.vocab.stoi[TEXT.pad_token]
 
 model = CNN(INPUT_DIM, EMBEDDING_DIM, N_FILTERS, FILTER_SIZES, OUTPUT_DIM, DROPOUT, PAD_IDX)

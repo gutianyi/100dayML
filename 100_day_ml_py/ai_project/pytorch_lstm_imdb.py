@@ -25,14 +25,54 @@
 # -*- coding: utf-8 -*-
 # @Time    : 20/11/2019 12:39 下午
 # @Author  : GU Tianyi
-# @File    : pytorch_lstm_imdb.py
+# @File    : pytorch_bidirectional_lstm_imdb.py
+
 import torch
 import torch.nn.functional as F
 from torchtext import data
 from torchtext import datasets
 import time
 import random
+def train(model, iterator, optimizer, criterion):
+    epoch_loss = 0
+    epoch_acc = 0
+    total_len = 0
 
+    # model.train()代表了训练模式
+    # model.train() ：启用 BatchNormalization 和 Dropout
+    # model.eval() ：不启用 BatchNormalization 和 Dropout
+    model.train()
+
+    # iterator为train_iterator
+    for batch in iterator:
+        # 梯度清零，加这步防止梯度叠加
+        optimizer.zero_grad()
+
+        # batch.text 就是上面forward函数的参数text
+        # 压缩维度，不然跟 batch.label 维度对不上
+        predictions = model(batch.text)
+
+        loss = criterion(predictions, batch.label)
+        acc = binary_accuracy(predictions, batch.label)
+
+        loss.backward()  # 反向传播
+        optimizer.step()  # 梯度下降
+
+        # loss.item() 以及本身除以了 len(batch.label)
+        # 所以得再乘一次，得到一个batch的损失，累加得到所有样本损失
+        epoch_loss += loss.item() * len(batch.label)
+
+        # (acc.item(): 一个batch的正确率) * batch数 = 正确数
+        # train_iterator 所有batch的正确数累加
+        epoch_acc += acc.item() * len(batch.label)
+
+        # 计算 train_iterator 所有样本的数量，应该是17500
+        total_len += len(batch.label)
+        # print('train loss = ', epoch_loss / total_len, '| train acc = ', epoch_acc / total_len)
+
+    # epoch_loss / total_len ：train_iterator所有batch的损失
+    # epoch_acc / total_len ：train_iterator所有batch的正确率
+    return epoch_loss / total_len, epoch_acc / total_len
 # 计算预测的准确率
 
 def binary_accuracy(preds, y):
@@ -56,7 +96,7 @@ def evaluate(model, iterator, criterion):
         for batch in iterator:
             # 没有反向传播和梯度下降
 
-            predictions = model(batch.text).squeeze(1)
+            predictions = model(batch.text)
             loss = criterion(predictions, batch.label)
             acc = binary_accuracy(predictions, batch.label)
 
@@ -79,45 +119,6 @@ def epoch_time(start_time, end_time):
     return elapsed_mins, elapsed_secs
 
 
-def train(model, iterator, optimizer, criterion):
-    epoch_loss = 0
-    epoch_acc = 0
-    total_len = 0
-
-    # model.train()代表了训练模式
-    # model.train() ：启用 BatchNormalization 和 Dropout
-    # model.eval() ：不启用 BatchNormalization 和 Dropout
-    model.train()
-
-    # iterator为train_iterator
-    for batch in iterator:
-        # 梯度清零，加这步防止梯度叠加
-        optimizer.zero_grad()
-
-        # batch.text 就是上面forward函数的参数text
-        # 压缩维度，不然跟 batch.label 维度对不上
-        predictions = model(batch.text).squeeze(1)
-
-        loss = criterion(predictions, batch.label)
-        acc = binary_accuracy(predictions, batch.label)
-
-        loss.backward()  # 反向传播
-        optimizer.step()  # 梯度下降
-
-        # loss.item() 以及本身除以了 len(batch.label)
-        # 所以得再乘一次，得到一个batch的损失，累加得到所有样本损失
-        epoch_loss += loss.item() * len(batch.label)
-
-        # (acc.item(): 一个batch的正确率) * batch数 = 正确数
-        # train_iterator 所有batch的正确数累加
-        epoch_acc += acc.item() * len(batch.label)
-
-        # 计算 train_iterator 所有样本的数量，应该是17500
-        total_len += len(batch.label)
-
-    # epoch_loss / total_len ：train_iterator所有batch的损失
-    # epoch_acc / total_len ：train_iterator所有batch的正确率
-    return epoch_loss / total_len, epoch_acc / total_len
 
 
 #================================================分隔符=================================================================
@@ -176,39 +177,28 @@ train_iterator, valid_iterator, test_iterator = data.BucketIterator.splits(
 import torch.nn as nn
 
 
+'''
+LSTM(
+  (embedding): Embedding(5002, 50)
+  (lstm): LSTM(50, 64, num_layers=2, dropout=0.2)
+  (fc): Linear(in_features=64, out_features=2, bias=True)
+)
+'''
+
+
 class RNN(nn.Module):
-    def __init__(self, vocab_size, embedding_dim, hidden_dim, output_dim,
-                 n_layers, bidirectional, dropout, pad_idx):
+    def __init__(self, embedding_dim, hidden_dim, output_dim):
         super().__init__()
-        self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=pad_idx)
-
-        # embedding_dim: 每个词向量的维度
-        # hidden_dim: 隐藏层的维度
-        # num_layers: 神经网络深度，纵向深度
-        # bidrectional: 是否双向循环RNN
-        # dropout是指在深度学习网络的训练过程中，对于神经网络单元，按照一定的概率将其暂时从网络中丢弃。
-        # 经过交叉验证，隐含节点dropout率等于0.5的时候效果最好，原因是0.5的时候dropout随机生成的网络结构最多。
-        self.rnn = nn.LSTM(embedding_dim, hidden_dim, num_layers=n_layers,
-                           bidirectional=bidirectional, dropout=dropout)
-
-        self.fc = nn.Linear(hidden_dim * 2, output_dim)  # *2是因为BiLSTM
-        self.dropout = nn.Dropout(dropout)
+        self.embedding = nn.Embedding(len(TEXT.vocab), embedding_dim)
+        self.lstm = nn.LSTM(embedding_dim, hidden_dim,
+                            num_layers=2,
+                            dropout=0.2)
+        self.fc = nn.Linear(hidden_dim, output_dim)
 
     def forward(self, text):
-        embedded = self.dropout(self.embedding(text))  # [sent len, batch size, emb dim]
-
-        # output = [sent len, batch size, hid dim * num directions]
-        # hidden = [num layers * num directions, batch size, hid dim]
-        # cell = [num layers * num directions, batch size, hid dim]
-        output, (hidden, cell) = self.rnn(embedded)
-
-        # concat the final forward (hidden[-2,:,:]) and backward (hidden[-1,:,:]) hidden layers
-        # and apply dropout
-        # [batch size, hid dim * num directions], 横着拼接的
-        # 倒数第一个和倒数第二个是BiLSTM最后要保留的状态
-        hidden = self.dropout(torch.cat((hidden[-2, :, :], hidden[-1, :, :]), dim=1))
-
-        return self.fc(hidden.squeeze())
+        embedded = self.embedding(text)
+        packed_output, (hidden, cell) = self.lstm(embedded)
+        return self.fc(packed_output[-1,:,:]).view(-1)
 
 pretrained_embeddings = TEXT.vocab.vectors
 INPUT_DIM = len(TEXT.vocab)
@@ -222,8 +212,7 @@ DROPOUT = 0.5
 
 PAD_IDX = TEXT.vocab.stoi[TEXT.pad_token]  # PAD_IDX = 1 为pad的索引
 
-model = RNN(INPUT_DIM, EMBEDDING_DIM, HIDDEN_DIM, OUTPUT_DIM,
-            N_LAYERS, BIDIRECTIONAL, DROPOUT, PAD_IDX)
+model = RNN( EMBEDDING_DIM, HIDDEN_DIM, OUTPUT_DIM)
 
 # model.embedding.weight.data.copy_(pretrained_embeddings)
 
@@ -245,7 +234,7 @@ criterion = nn.BCEWithLogitsLoss()
 model = model.to(device)
 criterion = criterion.to(device)
 
-N_EPOCHS = 1
+N_EPOCHS = 10
 best_valid_loss = float('inf')
 
 for epoch in range(N_EPOCHS):
@@ -264,3 +253,4 @@ for epoch in range(N_EPOCHS):
     print(f'Epoch: {epoch + 1:02} | Epoch Time: {epoch_mins}m {epoch_secs}s')
     print(f'\tTrain Loss: {train_loss:.3f} | Train Acc: {train_acc * 100:.2f}%')
     print(f'\t Val. Loss: {valid_loss:.3f} |  Val. Acc: {valid_acc * 100:.2f}%')
+
