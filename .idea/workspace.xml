@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa5f5a0-222d-406a-a2fd-56299db8256d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/linear_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/1_r_price_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/2_r_price_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/3_r_price_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/4_r_price_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/5_r_price_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/6_r_price_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/7_r_price_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/raw_price_train/8_r_price_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_bidirectional_lstm_imdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/CNN-model.pt" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/CNN-model.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/TF_CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/TF_CNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/pytorch_cnn_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/pytorch_cnn_imdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/jupyter_pytorch_lstm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/jupyter_pytorch_lstm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/lstm_website2_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/lstm_website2_example.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_otherfunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_lstm_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_lstm_imdb.py" afterDir="false" />
+    </list>
+    <list id="72f1ee79-2851-44b6-90d8-ed0bffa1bf11" name="ignore" comment="ignore">
+      <change beforePath="$PROJECT_DIR$/.idea/100dayML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100dayML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +22,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="100dayML" />
@@ -32,20 +41,38 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1RsmBxUgU12n0PEQq8uQexlygwf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/data_tools" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project/data" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/dl_learn" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project/.data/imdb" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/internet" />
     </key>
@@ -62,8 +89,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linear_regression">
-    <configuration name="GreetingClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pytorch_cnn_imdb_12.2">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,21 +98,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/internet" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/internet/GreetingClient.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GreetingServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,21 +120,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/internet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/internet/kuakua_netbot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/internet/GreetingServer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/internet/kuakua_netbot/client.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kuakua_bot_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,21 +142,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/internet/kuakua_netbot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/day2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/internet/kuakua_netbot/kuakua_bot_server.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytorch_cnn_imdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,21 +164,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/day3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/pytorch_cnn_imdb.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytorch_cnn_imdb_12.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,14 +186,36 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ai_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ml_project/linear_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytorch_lstm_imdb (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="100dayML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_lstm_imdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -175,13 +224,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.linear_regression" />
-        <item itemvalue="Python.day3" />
-        <item itemvalue="Python.day2" />
-        <item itemvalue="Python.GreetingClient" />
-        <item itemvalue="Python.GreetingServer" />
+        <item itemvalue="Python.pytorch_cnn_imdb_12.2" />
+        <item itemvalue="Python.pytorch_cnn_imdb" />
+        <item itemvalue="Python.client" />
+        <item itemvalue="Python.kuakua_bot_server" />
+        <item itemvalue="Python.pytorch_lstm_imdb (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -189,6 +241,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1aa5f5a0-222d-406a-a2fd-56299db8256d" name="Default Changelist" comment="" />
+      <changelist id="72f1ee79-2851-44b6-90d8-ed0bffa1bf11" name="ignore" comment="" />
       <created>1569223356128</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -206,7 +259,63 @@
       <workItem from="1571051432422" duration="14000" />
       <workItem from="1571280441451" duration="2403000" />
       <workItem from="1571283954837" duration="512000" />
-      <workItem from="1571404992267" duration="6677000" />
+      <workItem from="1571404992267" duration="16902000" />
+      <workItem from="1571636271355" duration="3204000" />
+      <workItem from="1571718071635" duration="215000" />
+      <workItem from="1571727266272" duration="27000" />
+      <workItem from="1571810601718" duration="6389000" />
+      <workItem from="1571834858724" duration="1260000" />
+      <workItem from="1571902327156" duration="3962000" />
+      <workItem from="1571926342528" duration="749000" />
+      <workItem from="1572069339361" duration="4264000" />
+      <workItem from="1572078208791" duration="414000" />
+      <workItem from="1572321108183" duration="3590000" />
+      <workItem from="1572325129308" duration="270000" />
+      <workItem from="1572334886278" duration="2982000" />
+      <workItem from="1572496528726" duration="1075000" />
+      <workItem from="1572846079394" duration="182000" />
+      <workItem from="1572846288559" duration="2540000" />
+      <workItem from="1572849132732" duration="6800000" />
+      <workItem from="1572856378415" duration="1382000" />
+      <workItem from="1572927407027" duration="161000" />
+      <workItem from="1573030944562" duration="2651000" />
+      <workItem from="1573102528101" duration="1291000" />
+      <workItem from="1573106020920" duration="14749000" />
+      <workItem from="1573140459219" duration="2769000" />
+      <workItem from="1573189208939" duration="722000" />
+      <workItem from="1573195010012" duration="1065000" />
+      <workItem from="1573196091487" duration="3125000" />
+      <workItem from="1573202334881" duration="6000" />
+      <workItem from="1573205184315" duration="744000" />
+      <workItem from="1573225330821" duration="27000" />
+      <workItem from="1573279701816" duration="2946000" />
+      <workItem from="1573297364199" duration="126000" />
+      <workItem from="1573976637834" duration="7075000" />
+      <workItem from="1573986332120" duration="7820000" />
+      <workItem from="1574063078899" duration="492000" />
+      <workItem from="1574224753941" duration="3105000" />
+      <workItem from="1574259408432" duration="1713000" />
+      <workItem from="1574321112722" duration="550000" />
+      <workItem from="1574321950828" duration="1895000" />
+      <workItem from="1574324255699" duration="1652000" />
+      <workItem from="1574473670037" duration="4814000" />
+      <workItem from="1574560994026" duration="7260000" />
+      <workItem from="1574657030212" duration="4951000" />
+      <workItem from="1574732151736" duration="6410000" />
+      <workItem from="1574764665008" duration="8523000" />
+      <workItem from="1574920273529" duration="5205000" />
+      <workItem from="1574936129488" duration="3839000" />
+      <workItem from="1574954475562" duration="106000" />
+      <workItem from="1574996677197" duration="4253000" />
+      <workItem from="1575004436991" duration="12000" />
+      <workItem from="1575016203076" duration="1218000" />
+      <workItem from="1575018220193" duration="77000" />
+      <workItem from="1575033841155" duration="12000" />
+      <workItem from="1575037600729" duration="575000" />
+      <workItem from="1575080209186" duration="66000" />
+      <workItem from="1575187264081" duration="89000" />
+      <workItem from="1575187895872" duration="652000" />
+      <workItem from="1575250251503" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1569227696119</created>
@@ -229,7 +338,49 @@
       <option name="project" value="LOCAL" />
       <updated>1570791519130</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="start ml project：&#10;     imple arima但是效果不明显">
+      <created>1571471893550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571471893550</updated>
+    </task>
+    <task id="LOCAL-00005" summary="start ai project">
+      <created>1574323018985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574323018985</updated>
+    </task>
+    <task id="LOCAL-00006" summary="start ai project">
+      <created>1574324216282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574324216282</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start ai project">
+      <created>1574324696700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574324696700</updated>
+    </task>
+    <task id="LOCAL-00008" summary="imple lstm cnn by using pytorch">
+      <created>1574938907688</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574938907688</updated>
+    </task>
+    <task id="LOCAL-00009" summary="try lstm">
+      <created>1574954543872</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574954543872</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +389,32 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/elvis/ITProjects/GitHub/PythonTask/100dayML/100_day_ml_py/ml_project/raw_price_train" />
+                        <option value="dir:/Users/elvis/ITProjects/GitHub/PythonTask/100dayML/100_day_ml_py/ml_project/stock_dataset_v3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -266,14 +443,94 @@
     <MESSAGE value="day1" />
     <MESSAGE value="day2" />
     <MESSAGE value="internet socket作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="internet socket作业" />
+    <MESSAGE value="start ml project：&#10;     imple arima但是效果不明显" />
+    <MESSAGE value="start ai project" />
+    <MESSAGE value="imple lstm cnn by using pytorch" />
+    <MESSAGE value="try lstm" />
+    <option name="LAST_COMMIT_MESSAGE" value="try lstm" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/ml_project/lab_tutorial/lab2_regression.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_mnist.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/day3.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/day3.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/day3.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/day3.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_otherfunction.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///Library/anaconda3/lib/python3.7/site-packages/torchvision/datasets/mnist.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_otherfunction.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/test.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/100_day_ml_py/test.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/100dayML$tf_cnn_imdb.coverage" NAME="tf_cnn_imdb Coverage Results" MODIFIED="1573200189554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+    <SUITE FILE_PATH="coverage/100dayML$day3.coverage" NAME="day3 Coverage Results" MODIFIED="1573205427576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
+    <SUITE FILE_PATH="coverage/100dayML$ml_project_arima_predict_7_days.coverage" NAME="ml_project_arima_predict_7_days Coverage Results" MODIFIED="1572336034850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <SUITE FILE_PATH="coverage/100dayML$try_PyTorch.coverage" NAME="try_PyTorch Coverage Results" MODIFIED="1571907244280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <SUITE FILE_PATH="coverage/100dayML$lstm_imdb.coverage" NAME="lstm_imdb Coverage Results" MODIFIED="1573197975284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+    <SUITE FILE_PATH="coverage/100dayML$pytorch_imdb.coverage" NAME="pytorch_imdb Coverage Results" MODIFIED="1573978212209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+    <SUITE FILE_PATH="coverage/100dayML$test.coverage" NAME="test Coverage Results" MODIFIED="1574775095144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
+    <SUITE FILE_PATH="coverage/100dayML$rnn.coverage" NAME="rnn Coverage Results" MODIFIED="1574603551065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn" />
+    <SUITE FILE_PATH="coverage/100dayML$ml_project_svr_predict_7_days.coverage" NAME="ml_project_svr_predict_7_days Coverage Results" MODIFIED="1572853657887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <SUITE FILE_PATH="coverage/100dayML$pytorch_cnn_imdb_self.coverage" NAME="pytorch_cnn_imdb_self Coverage Results" MODIFIED="1573984169696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ai_project" />
     <SUITE FILE_PATH="coverage/100dayML$GreetingClient.coverage" NAME="GreetingClient Coverage Results" MODIFIED="1570788765970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/internet" />
     <SUITE FILE_PATH="coverage/100dayML$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1570965686386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
-    <SUITE FILE_PATH="coverage/100dayML$day3.coverage" NAME="day3 Coverage Results" MODIFIED="1570966055465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
-    <SUITE FILE_PATH="coverage/100dayML$test.coverage" NAME="test Coverage Results" MODIFIED="1570780782464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
+    <SUITE FILE_PATH="coverage/100dayML$pytorch_lstm_imdb.coverage" NAME="pytorch_lstm_imdb Coverage Results" MODIFIED="1574739287124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+    <SUITE FILE_PATH="coverage/100dayML$nn_model.coverage" NAME="nn_model Coverage Results" MODIFIED="1571835808364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
+    <SUITE FILE_PATH="coverage/100dayML$predict_stock.coverage" NAME="predict_stock Coverage Results" MODIFIED="1571478256265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <SUITE FILE_PATH="coverage/100dayML$try_nltk.coverage" NAME="try_nltk Coverage Results" MODIFIED="1572321144263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_lab" />
     <SUITE FILE_PATH="coverage/100dayML$GreetingServer.coverage" NAME="GreetingServer Coverage Results" MODIFIED="1570788758997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/internet" />
-    <SUITE FILE_PATH="coverage/100dayML$linear_regression.coverage" NAME="linear_regression Coverage Results" MODIFIED="1571469284667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <SUITE FILE_PATH="coverage/100dayML$cnn_imdb.coverage" NAME="cnn_imdb Coverage Results" MODIFIED="1573142599147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py" />
+    <SUITE FILE_PATH="coverage/100dayML$pytorch_cnn_imdb.coverage" NAME="pytorch_cnn_imdb Coverage Results" MODIFIED="1574756515352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+    <SUITE FILE_PATH="coverage/100dayML$linear_regression.coverage" NAME="linear_regression Coverage Results" MODIFIED="1571478718124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <SUITE FILE_PATH="coverage/100dayML$lab2_regression.coverage" NAME="lab2_regression Coverage Results" MODIFIED="1572076664998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_day_ml_py/ml_lab" />
   </component>
 </project>
