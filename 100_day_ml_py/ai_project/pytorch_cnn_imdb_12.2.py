@@ -173,12 +173,12 @@ class CNN(nn.Module):
                 out_channels=n_filters,    # n_filters
                 kernel_size=filter_size,      # filter size
                 stride=1,           # filter movement/step
-                padding=1,      # 如果想要 con2d 出来的图片长宽没有变化,当 stride=1 padding=(kernel_size-1)/2
+                padding=1,      # 如果想要 con1d 出来的图片??长宽没有变化,当 stride=1 padding=(kernel_size-1)/2
             ),      # output shape  batch_size x n_filters x embedding_size: (100, 100, 380)
             nn.ReLU(),    # activation
-            nn.MaxPool2d(kernel_size=2),    # 在 2x2 空间里向下采样, output shape (batch_size, 128, 190)
+            nn.MaxPool1d(kernel_size=2),    # 在 2x2 空间里向下采样, output shape (batch_size, 128, 190)
         )
-        self.out = nn.Linear(128 * 190, 1)   # fully connected layer, output 11 classes
+        self.out = nn.Linear(256 * 190, 1)   # fully connected layer, output 1 classes
 
     def forward(self, text):
         embedded = self.embedded(text)
@@ -187,7 +187,7 @@ class CNN(nn.Module):
 #         print('x after conv1 size',x.size())
         conv1ed = conv1ed.view(conv1ed.size(0), -1)   # 展平多维的卷积图成 (batch_size, 128, 190)
         output = self.out(conv1ed)
-        return F.sigmoid(output.squeeze())
+        return output.squeeze()
 
 
 # 初始化参数

@@ -107,6 +107,10 @@ for epoch in range(EPOCH):
     for step, (b_x, b_y) in enumerate(train_loader):        # gives batch data
         b_x = b_x.view(-1, 28, 28)              # reshape x to (batch, time_step, input_size)
         output = rnn(b_x)                               # rnn output
+        print(output.size())
+        print(b_y.size())
+        print(b_y[0].type())
+
         loss = loss_func(output, b_y)                   # cross entropy loss
         optimizer.zero_grad()                           # clear gradients for this training step
         loss.backward()                                 # backpropagation, compute gradients

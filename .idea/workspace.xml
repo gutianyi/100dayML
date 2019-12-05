@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa5f5a0-222d-406a-a2fd-56299db8256d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_bidirectional_lstm_imdb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/CNN-model.pt" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/CNN-model.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/TF_CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/TF_CNN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/pytorch_cnn_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/pytorch_cnn_imdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/jupyter_pytorch_lstm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/jupyter_pytorch_lstm.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/lstm_website2_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/lstm_website2_example.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_otherfunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_lstm_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_lstm_imdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn/rnn.py" afterDir="false" />
     </list>
     <list id="72f1ee79-2851-44b6-90d8-ed0bffa1bf11" name="ignore" comment="ignore">
       <change beforePath="$PROJECT_DIR$/.idea/100dayML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100dayML.iml" afterDir="false" />
@@ -89,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pytorch_cnn_imdb_12.2">
+  <component name="RunManager" selected="Python.rnn">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytorch_lstm_imdb (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,12 +201,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_lstm_imdb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn/rnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rnn" />
         <item itemvalue="Python.pytorch_cnn_imdb_12.2" />
         <item itemvalue="Python.pytorch_cnn_imdb" />
         <item itemvalue="Python.client" />
         <item itemvalue="Python.kuakua_bot_server" />
-        <item itemvalue="Python.pytorch_lstm_imdb (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +309,10 @@
       <workItem from="1575187264081" duration="89000" />
       <workItem from="1575187895872" duration="652000" />
       <workItem from="1575250251503" duration="5935000" />
+      <workItem from="1575266929121" duration="167000" />
+      <workItem from="1575271192754" duration="763000" />
+      <workItem from="1575295405913" duration="764000" />
+      <workItem from="1575357979953" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1569227696119</created>
@@ -380,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574954543872</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lstm不理想">
+      <created>1575267029172</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575267029172</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +451,8 @@
     <MESSAGE value="start ai project" />
     <MESSAGE value="imple lstm cnn by using pytorch" />
     <MESSAGE value="try lstm" />
-    <option name="LAST_COMMIT_MESSAGE" value="try lstm" />
+    <MESSAGE value="lstm不理想" />
+    <option name="LAST_COMMIT_MESSAGE" value="lstm不理想" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
