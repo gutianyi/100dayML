@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa5f5a0-222d-406a-a2fd-56299db8256d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn/rnn.py" afterDir="false" />
-    </list>
-    <list id="72f1ee79-2851-44b6-90d8-ed0bffa1bf11" name="ignore" comment="ignore">
-      <change beforePath="$PROJECT_DIR$/.idea/100dayML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100dayML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/cnn_1_out.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/cnn_1_out.ipynb" afterDir="false" />
     </list>
+    <list id="72f1ee79-2851-44b6-90d8-ed0bffa1bf11" name="ignore" comment="ignore" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,6 +309,7 @@
       <workItem from="1575271192754" duration="763000" />
       <workItem from="1575295405913" duration="764000" />
       <workItem from="1575357979953" duration="639000" />
+      <workItem from="1575533454668" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1569227696119</created>
