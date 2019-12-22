@@ -12,68 +12,39 @@ Dependencies:
 torch: 0.4
 matplotlib
 """
-import torch
-import torch.nn.functional as F
-import matplotlib.pyplot as plt
-
-# torch.manual_seed(1)    # reproducible
-
-# make fake data
-n_data = torch.ones(100, 2)
-x0 = torch.normal(2*n_data, 1)      # class0 x data (tensor), shape=(100, 2)
-y0 = torch.zeros(100)               # class0 y data (tensor), shape=(100, 1)
-x1 = torch.normal(-2*n_data, 1)     # class1 x data (tensor), shape=(100, 2)
-y1 = torch.ones(100)                # class1 y data (tensor), shape=(100, 1)
-x = torch.cat((x0, x1), 0).type(torch.FloatTensor)  # shape (200, 2) FloatTensor = 32-bit floating
-y = torch.cat((y0, y1), ).type(torch.LongTensor)    # shape (200,) LongTensor = 64-bit integer
-
-# The code below is deprecated in Pytorch 0.4. Now, autograd directly supports tensors
-# x, y = Variable(x), Variable(y)
-
-# plt.scatter(x.data.numpy()[:, 0], x.data.numpy()[:, 1], c=y.data.numpy(), s=100, lw=0, cmap='RdYlGn')
-# plt.show()
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import datasets
+from sklearn.cross_validation import train_test_split
+from sklearn.metrics import accuracy_score
 
 
-class Net(torch.nn.Module):
-    def __init__(self, n_feature, n_hidden, n_output):
-        super(Net, self).__init__()
-        self.hidden = torch.nn.Linear(n_feature, n_hidden)   # hidden layer
-        self.out = torch.nn.Linear(n_hidden, n_output)   # output layer
+# 这是决策树中的一个典型的数据--鸢尾花
+iris = datasets.load_iris()
+# 特征数据
+iris_feature = iris.data
+# 分类数据
+iris_target = iris.target
+#print iris_target
+# 此时数据是按不同的类别顺序排列的，将数据随机的分为训练集和测试集
+feature_train, feature_test, target_train, target_test = train_test_split(iris_feature, iris_target, test_size=0.33,
+                                                                          random_state=56)
+# test_size测试数据占比，一般是70%训练，30%测试
+# random_state乱序程度
 
-    def forward(self, x):
-        x = F.relu(self.hidden(x))      # activation function for hidden layer
-        x = self.out(x)
-        return x
+# 模型训练
 
-net = Net(n_feature=2, n_hidden=10, n_output=2)     # define the network
-print(net)  # net architecture
+# 导入决策树，所有参数为默认，还可以引入损失函数（信息熵，基尼指数）；
+# 树深度；叶上最少样本数量，进行裁剪；节点的分裂策略
+dt_model = DecisionTreeClassifier()
+# 用决策树训练
+dt_model.fit(feature_train, target_train)
+# 使用测试数据测试
+predict_results = dt_model.predict(feature_test)
 
-optimizer = torch.optim.SGD(net.parameters(), lr=0.02)
-loss_func = torch.nn.CrossEntropyLoss()  # the target label is NOT an one-hotted
+# 利用测试数据测试
+print (predict_results)
+print (target_test)
 
-plt.ion()   # something about plotting
-
-for t in range(100):
-    out = net(x)                 # input x and predict based on x
-    print(y)
-    loss = loss_func(out, y)     # must be (1. nn output, 2. target), the target label is NOT one-hotted
-    print('lost: ',loss)
-    optimizer.zero_grad()   # clear gradients for next train
-    loss.backward()         # backpropagation, compute gradients
-    optimizer.step()        # apply gradients
-
-    if t % 2 == 0:
-        # plot and show learning process
-        plt.cla()
-        prediction = torch.max(out, 1)[1]
-        print(out)
-        print(prediction)
-        pred_y = prediction.data.numpy()
-        target_y = y.data.numpy()
-        plt.scatter(x.data.numpy()[:, 0], x.data.numpy()[:, 1], c=pred_y, s=100, lw=0, cmap='RdYlGn')
-        accuracy = float((pred_y == target_y).astype(int).sum()) / float(target_y.size)
-        plt.text(1.5, -4, 'Accuracy=%.2f' % accuracy, fontdict={'size': 20, 'color':  'red'})
-        plt.pause(0.1)
-
-plt.ioff()
-# plt.show()
+# 以下两种评比测试结果，传入参数有区别
+scores = dt_model.score(feature_test, target_test)
+print(accuracy_score(predict_results, target_test))

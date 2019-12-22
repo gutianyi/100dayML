@@ -43,10 +43,6 @@ dataset = dataset['2012-01-01':'2015-12-11']
 dataset['Adj Close'].diff().plot(grid = True)
 plt.show()
 
-dataset['Adj Close'].plot(grid = True)
-plt.savefig('Adj-Close.jpg')
-plt.show()
-
 # 白噪声监测
 from statsmodels.stats.diagnostic import acorr_ljungbox
 print('白噪声检测结果是 ', acorr_ljungbox(dataset['Adj Close'], lags= 1))
@@ -55,20 +51,20 @@ pmax = 3
 qmax = 3
 dataset['Adj Close'] = dataset['Adj Close'].astype(float)
 
-bic_matrix = []
-for p in range(pmax + 1):
-    tmp = []
-    for q in range(qmax + 1):
-        try:
-            tmp.append(ARIMA(dataset['Adj Close'], (p,1,q)).fit().bic)
-        except:
-            tmp.append(None)
-        bic_matrix.append(tmp)
-
-#找出最小值
-bic_matrix = pd.DataFrame(bic_matrix)
-print(bic_matrix)
-p,q = bic_matrix.stack().idxmin()
+# bic_matrix = []
+# for p in range(pmax + 1):
+#     tmp = []
+#     for q in range(qmax + 1):
+#         try:
+#             tmp.append(ARIMA(dataset['Adj Close'], (p,2,q)).fit().bic)
+#         except:
+#             tmp.append(None)
+#         bic_matrix.append(tmp)
+#
+# #找出最小值
+# bic_matrix = pd.DataFrame(bic_matrix)
+# print(bic_matrix)
+# p,q = bic_matrix.stack().idxmin()
 p,q = 0, 1
 print(u'BIC 最小的p值 和 q 值：%s,%s' %(p,q))
 

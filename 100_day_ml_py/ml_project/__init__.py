@@ -23,20 +23,6 @@
 #               佛祖保佑         永无BUG
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-
-# @Time    : 31/10/2019 12:38 下午
-# @Author  : Q
-# @Site    : 
-# @File    : rnn_mnist_byPyTorch.py
-# @Software: PyCharm
-
-import torch
-import torchvision
-import torchvision.transforms as transforms
-import torch.nn.functional as F
-import torch.optim as optim
-import matplotlib.pyplot as plt
-import numpy as np
-
-transform = transforms.Compose([transforms.ToTensor])
-
-# 训练集
+# @Time    : 21/12/2019 4:01 下午
+# @Author  : GU Tianyi
+# @File    : __init__.py.py

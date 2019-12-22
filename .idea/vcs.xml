@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/100_day_ml_py/pytoch_example/TextClassificationBenchmark" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/100_day_ml_py/pytorch_example/TextClassificationBenchmark" vcs="Git" />
   </component>
