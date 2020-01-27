@@ -2,164 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa5f5a0-222d-406a-a2fd-56299db8256d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/.ipynb_checkpoints/cnn_1_out 1-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/data_utils/extension/.ipynb_checkpoints/load_datasets-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/data_utils/extension/.ipynb_checkpoints/source_achieve-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/deep_eye/.ipynb_checkpoints/day4-day5-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/deep_eye/.ipynb_checkpoints/房价预测总代码文件-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/deep_eye/ar121_2018_intake_onwards.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/deep_eye/day4-day5.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/deep_eye/房价预测总代码文件.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/deep_eye/房价预测总代码文件.ipynb.bdc-downloading" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn/.ipynb_checkpoints/rnn-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/WordsTransform.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/把你当傻子教的EM范例.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/LR-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/Stock_RNN_ZHANG-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/Stock__RNN-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/WordsTransform-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/cnn_stock-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/ml_project_arima_predict_7_days-checkpoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/mul_d_nn-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/report-checkpoint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/rnn_stock-Copy1-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/rnn_stock-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/svr-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/Adj-Close.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/LR.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/LR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/WordsTransform.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/cnn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/cnn_stock.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/diff().jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/lab_tutorial/.ipynb_checkpoints/rnn_stock-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/lab_tutorial/rnn_stock.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/mul_d_nn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/nn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/FeatureEngineering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/LinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/Stock__RNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/report_AdjCloseVolume.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/report_AdjCloseVolume.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/rnn_stock-Copy1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/rnn_stock.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/stock-bilstm-model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/stock-rnn-model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/svr.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/1/2015-12-31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/2/2015-12-31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/3/2015-12-31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/4/2015-12-31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/5/2015-12-31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/6/2015-12-31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/7/2015-12-31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/tweet_test/8/2015-12-31" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/.ipynb_checkpoints/nn_model-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/Stock__RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/.ipynb_checkpoints/Open-checkpoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/.ipynb_checkpoints/report-checkpoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/Adj Close.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/BiLSTM-Adj Close_Vol-Result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/CNN-Adj Close_Hmm-Result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/CNN-Adj Close_Vol-Result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/LSTM-Adj Close_hmm-Result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/NN-Adj Close_Vol-Result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/PolynomialRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/Volume.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/cnn_stock.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/model.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pickle_example.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pkl_files/stock1_day1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pkl_files/stock1_day2.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pkl_files/stock1_day3.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pkl_files/stock1_day4.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pkl_files/stock1_day5.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pkl_files/stock1_day6.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/pkl_files/stock1_day7.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/raw_price_train/.ipynb_checkpoints/1_r_price_train-checkpoint.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/rnn_stock.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock-bilstm-model.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock-cnn-Adj_Hmm-model.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock-cnn-adj_vol-model.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock-cnn-model.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock_7day.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock_arima.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock_bilstm_adj_vol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock_cnn_adj_hmm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock_cnn_adj_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock_cnn_adj_vol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/se_project/bpnn/BPNN_fault_localization (beta).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_day_ml_py/se_project/bpnn/bpnn_fault_localization (MSE).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100dayML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100dayML.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/.ipynb_checkpoints/pytorch_cnn_imdb-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/lstm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/lstm.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ai_project/ai_proj_汇总/pytorch_cnn_imdb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/07 chapter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/07 chapter.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/09 chapter/09 chapter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/09 chapter/09 chapter.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/09 chapter/data.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/14 chapter/data.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/18 chapter/18 chapter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/gitchat_deeplearning/18 chapter/18 chapter.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/.ipynb_checkpoints/nn-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/.ipynb_checkpoints/nn-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/.ipynb_checkpoints/pca_nn-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/LR.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/LR.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/nn.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/pca_nn.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/raw_price_train/2_r_price_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/raw_price_train/2_r_price_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/jupyterPY/try_vscode/svr.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_arima_predict_7_days.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_arima_predict_7_days.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_rnn_predict_7_days.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/predict_stock.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/rnn_mnist_byPyTorch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_day_ml_py/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/ml_project_arima_predict_7_days-checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/.ipynb_checkpoints/ml_project_arima_predict_7_days-checkpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/WordsTransform.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/WordsTransform.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/cnn.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/cnn_stock.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/.ipynb_checkpoints/cnn_stock-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/diff().jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_arima_predict_7_days.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_auto_arima_predict_7_days.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_auto_arima_predict_7_days.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/mul_d_nn.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/nn.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/FeatureEngineering.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/FeatureEngineering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/LinearRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/Stock__RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/Stock__RNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/report_AdjCloseVolume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/report_AdjCloseVolume.md" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/report_AdjCloseVolume.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/ml_project/rnn_stock.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/.ipynb_checkpoints/rnn_stock-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/se_project/Tara/cov.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/se_project/Tara/covtest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_day_ml_py/se_project/Tara/mid.py" beforeDir="false" />
     </list>
     <list id="72f1ee79-2851-44b6-90d8-ed0bffa1bf11" name="ignore" comment="ignore">
       <change afterPath="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/raw_price_train/1_r_price_train.csv" afterDir="false" />
@@ -211,7 +113,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/100_day_ml_py/se_project/Bpnn-fault-localization" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -223,20 +125,27 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/100_day_ml_py/se_project/Bpnn-fault-localization" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project/.data/imdb" />
-      <recent name="$PROJECT_DIR$/100_day_ml_py" />
-      <recent name="$PROJECT_DIR$/100_day_ml_py/internet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/100_day_ml_py/se_project" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/se_project/Tara" />
+      <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project/zhang" />
       <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project" />
-      <recent name="$PROJECT_DIR$/100_day_ml_py/ml_project" />
-      <recent name="$PROJECT_DIR$/100_day_ml_py/data_tools" />
-      <recent name="$PROJECT_DIR$/100_day_ml_py/ai_project/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,29 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ml_project_arima_predict_7_days">
-    <configuration name="Stock_RNN_ZHANG" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="100dayML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ml_project/zhang/Stock_RNN_ZHANG.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.crosstab">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ml_project_arima_predict_7_days" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bpnn_fault_localization (MSE)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,12 +191,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/se_project/bpnn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_arima_predict_7_days.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/se_project/bpnn/bpnn_fault_localization (MSE).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ml_project_svr_predict_7_days" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bpnn_fault_localization(For mid-count)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,12 +213,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ml_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/se_project/Bpnn-fault-localization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ml_project/ml_project_svr_predict_7_days.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/se_project/Bpnn-fault-localization/bpnn_fault_localization(For mid-count).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytorch_cnn_imdb_12.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cov_tarantula" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ai_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/se_project/Tara" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ai_project/pytorch_cnn_imdb_12.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/se_project/Tara/cov_tarantula.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="crosstab" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100dayML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,12 +257,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/se_project/Tara" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/dl_learn/pytorch_learn/rnn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/se_project/Tara/crosstab.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stock_bilstm_adj_vol" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="100dayML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_day_ml_py/ml_project/project_version2.0/stock_bilstm_adj_vol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ml_project_arima_predict_7_days" />
-        <item itemvalue="Python.Stock_RNN_ZHANG" />
-        <item itemvalue="Python.ml_project_svr_predict_7_days" />
-        <item itemvalue="Python.rnn" />
-        <item itemvalue="Python.pytorch_cnn_imdb_12.2" />
+        <item itemvalue="Python.crosstab" />
+        <item itemvalue="Python.cov_tarantula" />
+        <item itemvalue="Python.bpnn_fault_localization(For mid-count)" />
+        <item itemvalue="Python.bpnn_fault_localization (MSE)" />
+        <item itemvalue="Python.stock_bilstm_adj_vol" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +402,17 @@
       <workItem from="1576842977398" duration="1747000" />
       <workItem from="1576897428112" duration="1055000" />
       <workItem from="1576915659722" duration="574000" />
-      <workItem from="1576985469210" duration="251000" />
+      <workItem from="1576985469210" duration="14289000" />
+      <workItem from="1577078750200" duration="1767000" />
+      <workItem from="1577094485350" duration="2000" />
+      <workItem from="1577099155942" duration="18037000" />
+      <workItem from="1577867565420" duration="1955000" />
+      <workItem from="1578470722070" duration="81000" />
+      <workItem from="1578633613466" duration="418000" />
+      <workItem from="1578640641282" duration="2062000" />
+      <workItem from="1578730056792" duration="3094000" />
+      <workItem from="1579238678481" duration="1018000" />
+      <workItem from="1579959157042" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1569227696119</created>
@@ -565,7 +484,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575267029172</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="张仕杰 version 2.0">
+      <created>1576985722274</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576985722274</updated>
+    </task>
+    <task id="LOCAL-00012" summary="setup se project">
+      <created>1577867636355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577867636355</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +567,8 @@
     <MESSAGE value="try lstm" />
     <MESSAGE value="lstm不理想" />
     <MESSAGE value="张仕杰 version 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="张仕杰 version 2.0" />
+    <MESSAGE value="setup se project" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup se project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

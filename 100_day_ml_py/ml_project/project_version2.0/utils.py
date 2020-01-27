@@ -4,6 +4,7 @@ import os
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from hmmlearn import hmm
 from sklearn.preprocessing import OneHotEncoder
+import pickle
 
 # 获取数据
 def get_data(fileName,normalize=False):
@@ -22,7 +23,7 @@ def get_data(fileName,normalize=False):
 # 处理文本数据
 def get_words():
     # 获取所有文件名
-    filepath = "tweet_train\\"
+    filepath = "tweet_test/"
     path_a = []
     path_b = []
     path_c = []
@@ -36,7 +37,7 @@ def get_words():
     for i in range(1, len(path_a)):
         temp = []
         for j in range(len(path_c[i])):
-            temp.append(path_a[i] + "\\" + path_c[i][j])
+            temp.append(path_a[i] + "/" + path_c[i][j])
         path.append(temp)
 
     # tweet数据转换成数据框并保存成csv
@@ -47,9 +48,9 @@ def get_words():
                 temp = pd.read_json(path[i][j], lines=True)
                 temps = [tweet_data, temp]
                 tweet_data = pd.concat(temps)
-        tweet_data.columns = ["time", "text", "user_id"]
+        tweet_data.columns = ["text", "time", "user_id"]
         tweet_data.sort_values("time", inplace=True)
-        tweet_data.to_csv(str(i + 1) + "th_tweet_data.csv", index=False)
+        tweet_data.to_csv("tweet_test/"+str(i + 1) + "th_tweet_test.csv", index=False)
 
 # 处理文本数据异常字符
 def controlStrFormat(temp):
@@ -110,13 +111,17 @@ def get_hmm(data,n_states):
     # one-hot 编码
     onehotencoder = OneHotEncoder(sparse=False)
     states = onehotencoder.fit_transform(states.reshape(-1, 1))
-    columns = ["state_1", "state_2", "state_3", "state_4", "state_5", "state_6", "state_7", "state_8", "state_9",
-               "state_10"]
+    columns = []
+    for i in range(n_states):
+        columns.append("state_"+str(i+1))
     states_df = pd.DataFrame(states, columns=columns)
     return states_df
 # mse
 def get_loss(outputs,y):
-    return np.mean(np.power(np.array(outputs)-np.array(y),2))
+    loss = []
+    for i in range(len(outputs)):
+        loss.append(np.mean(np.power(np.array(outputs[i])-np.array(y[i]),2)))
+    return np.mean(loss)
 
 def get_MaxMin(data,target):
     """
@@ -128,7 +133,19 @@ def get_MaxMin(data,target):
     max_data = np.max(data[target].values)
     data[target] = (data[target] - min_data) / (max_data - min_data)
     return data
-#if __name__ == "__main__":
+
+# 输出pkl
+def out_pkl(pred):
+    for i in range(len(pred)):
+        file_name = 'pkl_files/stock1_day%d.pkl' % (i + 1)
+        # pickle a variable to a file
+        file = open(file_name, 'wb')
+        pickle.dump(pred[i], file)
+        file.close()
+
+    print("输出pkl完成")
+if __name__ == "__main__":
+    get_words()
 #    fileName = "tweet_data/1th_tweet_data.csv"
 #    tweet = get_sentiment(fileName)
 #    print(tweet)

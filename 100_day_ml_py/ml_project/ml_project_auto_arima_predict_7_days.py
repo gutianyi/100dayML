@@ -26,7 +26,7 @@
 # @Time    : 13/10/2019 7:06 下午
 # @Author  : Q
 # @Site    : 
-# @File    : ml_project_arima_predict_7_days.py
+# @File    : stock_arima.py
 # @Software: PyCharm
 
 import pandas as pd

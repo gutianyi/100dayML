@@ -5,6 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/100_day_ml_py" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/100_day_ml_py/ai_project/GloVe-1.2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/100_day_ml_py/ai_project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/100_day_ml_py/ml_project/project_version2.0" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/100_day_ml_py/se_project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/100_day_ml_py/se_project/Tara" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/100_day_ml_py/se_project/Bpnn-fault-localization" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
